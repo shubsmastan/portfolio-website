@@ -1,6 +1,6 @@
 # Landing Page
 
-Landing page created for my portfolio website, inspired by the task on [The Odin Project](https://www.theodinproject.com)'s Advanced HTML and CSS course.
+Landing page created for my [portfolio website](https://www.mastan.me), inspired by the task on [The Odin Project](https://www.theodinproject.com)'s Advanced HTML and CSS course.
 
 ## Creator
 
