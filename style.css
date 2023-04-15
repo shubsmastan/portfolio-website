@@ -37,18 +37,6 @@ header {
   color: #fff;
 }
 
-@media (min-width: 550px) {
-  header {
-    padding: 20px;
-  }
-}
-
-@media (min-width: 1000px) {
-  header {
-    padding: 20px 250px;
-  }
-}
-
 .nav-list {
   display: flex;
   flex-wrap: wrap;
@@ -68,8 +56,9 @@ a,
   color: #fff;
 }
 
-.nav-link:hover {
-  background-color: #654254;
+.nav-link:hover,
+.nav-link:focus {
+  outline: 1px solid #fff;
   border-radius: 5px;
 }
 
@@ -113,36 +102,6 @@ h2 {
   padding: 10px 0;
 }
 
-@media (min-width: 550px) {
-  .about-me {
-    display: flex;
-    background-color: var(--clr-dark);
-    padding: 20px;
-  }
-
-  .about-me-text {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  }
-
-  .header-image {
-    height: 500px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  }
-
-  .about-me-image {
-    height: 100%;
-    width: auto;
-    padding-bottom: 0;
-  }
-}
-
-@media (min-width: 1000px) {
-  .about-me {
-    align-items: center;
-    padding: 20px 250px;
-  }
-}
-
 .my-work {
   background-color: var(--clr-accent);
   padding: 15px;
@@ -179,28 +138,10 @@ p {
   width: auto;
 }
 
-.icon:hover {
-  background-color: var(--clr-med);
+.icon:hover,
+.icon:focus {
+  outline: 1px solid #000;
   border-radius: 5px;
-}
-
-@media (min-width: 550px) {
-  .portfolio {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    gap: 15px;
-  }
-
-  .portfolio-item {
-    width: 45%;
-  }
-}
-
-@media (min-width: 1000px) {
-  .my-work {
-    padding: 20px 250px;
-  }
 }
 
 footer {
@@ -230,16 +171,99 @@ footer {
 .nav-icon {
   height: 35px;
   width: auto;
+  filter: invert(1);
 }
 
-.nav-icon:hover {
-  background-color: #976a81;
+.nav-icon:hover,
+.nav-icon:focus {
+  outline: 1px solid #000;
   border-radius: 5px;
 }
 
 @media (min-width: 550px) {
-  footer {
+  header {
+    padding: 20px;
+  }
+}
+
+@media (min-width: 1000px) {
+  header {
+    padding: 20px 250px;
+  }
+}
+
+@media (min-width: 1200px) {
+  header {
+    padding: 20px 300px;
+  }
+}
+
+@media (min-width: 550px) {
+  .about-me {
     display: flex;
+    background-color: var(--clr-dark);
+    padding: 20px;
+  }
+
+  .about-me-text {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .header-image {
+    height: 500px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .about-me-image {
+    height: 100%;
+    width: auto;
+    padding-bottom: 0;
+  }
+}
+
+@media (min-width: 1000px) {
+  .about-me {
+    align-items: center;
+    padding: 20px 250px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .about-me {
+    padding: 20px 300px;
+  }
+}
+
+@media (min-width: 550px) {
+  .portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 15px;
+    padding-bottom: 20px;
+  }
+
+  .portfolio-item {
+    width: 47%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .my-work {
+    padding: 20px 250px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .my-work {
+    padding: 20px 300px;
+  }
+}
+
+@media (min-width: 550px) {
+  footer,
+  footer p {
+    text-align: center;
   }
 
   .footer-image {
@@ -251,5 +275,11 @@ footer {
 @media (min-width: 1000px) {
   footer {
     padding: 20px 250px;
+  }
+}
+
+@media (min-width: 1200px) {
+  footer {
+    padding: 20px 300px;
   }
 }
