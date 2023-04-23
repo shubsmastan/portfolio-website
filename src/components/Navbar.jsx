@@ -2,19 +2,19 @@ import React from "react";
 
 export default function Navbar() {
   return (
-    <header className="bg-dark-rose md:sticky top-0 z-10 font-josefin-sans">
-      <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center justify-around">
-        <a href="#" className="title-font font-medium text-white mb-4 md:mb-0">
+    <header className="bg-dark-rose font-josefin-sans top-0 z-10 text-lg text-cream md:sticky md:text-xl">
+      <div className="min-h-10v container mx-auto p-5 flex items-center justify-around flex-wrap flex-col md:flex-row">
+        <a href="#" className="text-cream">
           &#60;&#47;&#62;
         </a>
-        <nav className="md:mr-0 md:ml-4 md:py-1 md:pl-4 flex flex-wrap items-center text-base justify-flex-end gap-10 lg:gap-15">
-          <a href="#about" className="text-white hover:underline">
+        <nav className="flex flex-wrap items-center justify-flex-end gap-10 lg:gap-15">
+          <a href="#about" className="text-cream hover:underline">
             About
           </a>
-          <a href="#portfolio" className="text-white hover:underline">
+          <a href="#portfolio" className="text-cream hover:underline">
             Portfolio
           </a>
-          <a href="#contact" className="text-white hover:underline">
+          <a href="#contact" className="text-cream hover:underline">
             Contact
           </a>
         </nav>

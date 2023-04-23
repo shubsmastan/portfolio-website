@@ -5,56 +5,53 @@ export default function Projects() {
   return (
     <section
       id="portfolio"
-      className="text-gray-800 bg-mauve body-font px-5 py-10 font-josefin-sans"
+      className="snap-start min-h-screen flex items-center py-20 bg-mauve text-gray-800 text-lg font-josefin-sans lg:text-xl"
     >
-      <div className="container mx-auto text-center lg:px-40 mb-10">
+      <div className="container px-5 py-10 mx-auto text-center xl:px-40">
         <div className="flex flex-col w-full mb-10">
-          <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4">
+          <h1 className="text-4xl sm:text-5xl font-medium title-font mb-4">
             My Portfolio
           </h1>
-          <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
+          <p className="mx-auto leading-relaxed w-2/3">
             These are some examples of the projects I have created so far using
-            the tech stacks below.
+            the languages and frameworks listed below.
           </p>
         </div>
-        <div className="flex flex-wrap -m-4">
+        <div className="flex flex-wrap mb-4">
           {projects.map((project) => (
-            <a
-              href={project.link}
+            <div
+              className="relative p-4 flex w-100 sm:w-1/2 z-0"
               key={project.title}
-              className="sm:w-1/2 w-100 p-4"
             >
-              <div className="flex relative">
+              <div className="absolute inset-0 w-full h-full p-4">
                 <img
                   alt="gallery"
-                  className="absolute inset-0 w-full h-full object-cover object-center rounded"
+                  className="w-full h-full object-cover object-center rounded"
                   src={project.image}
                 />
-                <div className="px-8 py-10 relative z-10 w-full border-2 border-gray-800 bg-cream opacity-0 hover:opacity-100 rounded">
-                  <h2 className="tracking-widest text-sm title-font font-bold mb-1">
-                    {project.subtitle}
-                  </h2>
-                  <h1 className="title-font text-lg text-dark-rose font-bold font-large mb-3">
-                    {project.title}
-                  </h1>
-                  <p className="leading-relaxed">{project.description}</p>
-                </div>
               </div>
-            </a>
+              <div className="px-8 py-10 z-10 w-full border-2 border-gray-800 bg-cream opacity-0 rounded hover:opacity-100">
+                <h2 className="text-base font-bold mb-1">{project.subtitle}</h2>
+                <h1 className="text-lg text-dark-rose font-bold font-large mb-3">
+                  <a href={project.link} target="_blank">
+                    {project.title}
+                  </a>
+                </h1>
+                <p className="text-base leading-relaxed">
+                  {project.description}
+                </p>
+              </div>
+            </div>
           ))}
         </div>
-      </div>
-      <div className="container mx-auto text-gray-800">
         <div className="text-center mb-5">
-          <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4">
-            Skills &amp; Technologies
-          </h1>
+          <h2 className="text-3xl sm:text-4xl mb-4">Tech Stack</h2>
         </div>
-        <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
+        <div className="flex flex-wrap mx-auto mb-2">
           {skills.map((skill) => (
-            <div key={skill} className="p-2 sm:w-1/2 w-full">
-              <div className="bg-gray-800 rounded flex p-4 h-full justify-center items-center">
-                <p className="title-font font-medium text-cream">{skill}</p>
+            <div key={skill} className="p-4 w-full sm:w-1/2 lg:w-1/3">
+              <div className="bg-gray-800 flex justify-center items-center p-4 rounded">
+                <p className="text-lg text-cream">{skill}</p>
               </div>
             </div>
           ))}
