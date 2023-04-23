@@ -6,12 +6,10 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="snap-start min-h-screen py-20 bg-dark-rose text-lg text-cream font-josefin-sans lg:text-xl"
+      className="min-h-screen py-20 bg-dark-rose text-lg text-cream font-josefin-sans lg:text-xl"
     >
       <div className="text-center mx-auto px-5 py-10 md:w-2/3 lg:px-40">
-        <h1 className="sm:text-4xl text-3xl mb-1 font-medium title-font">
-          Contact Me
-        </h1>
+        <h1 className="text-4xl sm:text-5xl font-medium mb-8">Contact Me</h1>
         <p className="leading-relaxed mb-3">
           Please get in touch if you have any questions, know of any
           opportunities, or want to collaborate on a project.
@@ -21,19 +19,24 @@ export default function Contact() {
             <FontAwesomeIcon
               icon={faGithub}
               size="2xl"
-              style={{ color: "#ffffff" }}
+              style={{ color: "#f8ede3" }}
             />
           </a>
           <a href="https://www.linkedin.com/in/shoaibmastan/">
             <FontAwesomeIcon
               icon={faLinkedin}
               size="2xl"
-              style={{ color: "#fff" }}
+              style={{ color: "#f8ede3" }}
             />
           </a>
         </div>
-        <form
-          // netlify
+        <img
+          src="/src/assets/images/self-02.jpg"
+          className="h-[400px] w-auto pt-4 m-auto"
+          alt="hero"
+        />
+        {/* <form
+          netlify
           name="contact"
           className="flex flex-col md:ml-auto w-full mt-7"
           onSubmit={(e) => {
@@ -81,7 +84,7 @@ export default function Contact() {
           >
             Submit
           </button>
-        </form>
+        </form> */}
       </div>
     </section>
   );
