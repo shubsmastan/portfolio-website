@@ -1,11 +1,13 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCode } from "@fortawesome/free-solid-svg-icons";
 
-export default function Navbar() {
+export default function Header() {
   return (
-    <header className="bg-dark-rose font-josefin-sans top-0 z-10 text-lg text-cream md:sticky md:text-xl">
+    <header className="sticky bg-dark-rose font-josefin-sans top-0 z-10 text-lg text-cream md:text-xl">
       <div className="min-h-10v container mx-auto p-5 flex items-center justify-around flex-wrap flex-col md:flex-row">
         <a href="#" className="text-cream">
-          &#60;&#47;&#62;
+          <FontAwesomeIcon icon={faCode} style={{ color: "#fff" }} />
         </a>
         <nav className="flex flex-wrap items-center justify-flex-end gap-10 lg:gap-15">
           <a href="#about" className="text-cream hover:underline">

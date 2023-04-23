@@ -1,4 +1,6 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 export default function Contact() {
   return (
@@ -14,19 +16,19 @@ export default function Contact() {
           Please get in touch if you have any questions, know of any
           opportunities, or want to collaborate on a project.
         </p>
-        <div className="flex gap-5 justify-center">
+        <div className="flex gap-10 justify-center">
           <a href="https://www.github.com/shubsmastan">
-            <img
-              src="/src/assets/icons/github.svg"
-              className="w-10 invert"
-              alt=""
+            <FontAwesomeIcon
+              icon={faGithub}
+              size="2xl"
+              style={{ color: "#ffffff" }}
             />
           </a>
           <a href="https://www.linkedin.com/in/shoaibmastan/">
-            <img
-              src="/src/assets/icons/linkedin.svg"
-              className="w-10 invert"
-              alt=""
+            <FontAwesomeIcon
+              icon={faLinkedin}
+              size="2xl"
+              style={{ color: "#fff" }}
             />
           </a>
         </div>
@@ -75,7 +77,7 @@ export default function Contact() {
           </div>
           <button
             type="submit"
-            className="w-6/12 md:w-2/12 m-auto text-gray-800 bg-mauve border-0 py-2 px-6 hover:bg-mauve-hover rounded text-lg"
+            className="w-6/12 lg:w-3/12 m-auto text-gray-800 bg-mauve border-0 py-2 px-6 hover:bg-mauve-hover rounded text-lg"
           >
             Submit
           </button>

@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import { projects, skills } from "../data/project-data";
 
-export default function Projects() {
+export default function Portfolio() {
+  const [sliderIndex, setSliderIndex] = useState(0);
+
   return (
     <section
       id="portfolio"

@@ -1,17 +1,20 @@
 import { useState } from "react";
-import Navbar from "./components/Navbar";
+import Header from "./components/Header";
 import About from "./components/About";
-import Projects from "./components/Projects";
+import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
 
 function App() {
   return (
-    <>
-      <Navbar />
+    <div
+      id="app"
+      className="scroll-smooth w-screen h-screen m-0 snap-y snap-mandatory overflow-y-scroll"
+    >
+      <Header />
       <About />
-      <Projects />
+      <Portfolio />
       <Contact />
-    </>
+    </div>
   );
 }
 
