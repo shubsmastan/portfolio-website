@@ -4,7 +4,7 @@ import { faCode } from "@fortawesome/free-solid-svg-icons";
 
 export default function Header() {
   return (
-    <header className="sticky bg-dark-rose font-josefin-sans top-0 z-10 text-cream text-md sm:text-lg">
+    <header className="sticky bg-dark-rose font-josefin-sans top-0 z-20 text-cream text-md sm:text-lg">
       <div className="min-h-10v container mx-auto p-5 flex items-center justify-around flex-wrap flex-col md:flex-row">
         <a href="#" className="text-cream mb-4">
           <FontAwesomeIcon icon={faCode} style={{ color: "#fff" }} />

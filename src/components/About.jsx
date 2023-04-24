@@ -14,7 +14,7 @@ export default function About() {
           </p>
           <img
             className="w-full h-100 mb-4 object-cover object-center rounded sm:hidden"
-            src="src/assets/images/self-01.jpg"
+            src="/images/self-01.jpg"
             alt="hero"
           />
           <p className="mb-8 leading-relaxed">
@@ -61,7 +61,7 @@ export default function About() {
         <div className="hidden sm:block m-auto sm:w-1/2 lg:w-1/3">
           <img
             className="object-cover object-center rounded"
-            src="src/assets/images/self-01.jpg"
+            src="/images/self-01.jpg"
             alt="hero"
           />
         </div>

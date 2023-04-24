@@ -31,7 +31,7 @@ export default function Contact() {
           </a>
         </div>
         <img
-          src="/src/assets/images/self-02.jpg"
+          src="/images/self-02.jpg"
           className="h-[400px] w-auto pt-4 m-auto"
           alt="hero"
         />

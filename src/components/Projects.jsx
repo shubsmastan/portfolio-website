@@ -25,8 +25,8 @@ export default function Projects(props) {
           <div
             className={
               index === props.sliderIndex
-                ? "flex flex-col mx-auto absolute w-100 sm:left-[100px] md:left-[125px] lg:left-[160px] 2xl:left-[200px] sm:w-2/3 transition-opacity duration-1000 ease-in-out z-1"
-                : "flex flex-col mx-auto absolute w-100 sm:left-[100px] md:left-[125px] lg:left-[160px] 2xl:left-[200px] sm:w-2/3 opacity-0 transition-opacity duration-1000 ease-in-out z-0"
+                ? "z-10 flex flex-col mx-auto absolute w-100 sm:left-[100px] md:left-[125px] lg:left-[160px] 2xl:left-[200px] sm:w-2/3 transition-opacity duration-1000 ease-in-out"
+                : "z-0 flex flex-col mx-auto absolute w-100 sm:left-[100px] md:left-[125px] lg:left-[160px] 2xl:left-[200px] sm:w-2/3 opacity-0 transition-opacity duration-1000 ease-in-out"
             }
             key={project.title}
           >
