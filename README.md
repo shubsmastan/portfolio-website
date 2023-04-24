@@ -8,6 +8,8 @@ Landing page created for my [portfolio website](https://www.mastan.me), inspired
 
 ## Version History
 
+- 2.0 (20/04/2023)
+  - Rebuilt site using React/Vite/Tailwind
 - 1.0 (05/04/2023)
   - Initial Release
 
