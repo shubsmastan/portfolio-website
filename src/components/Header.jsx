@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <header className="sticky bg-dark-rose font-josefin-sans top-0 z-20 text-cream text-md sm:text-lg">
       <div className="min-h-10v container mx-auto p-5 flex items-center justify-around flex-wrap flex-col md:flex-row">
-        <a href="#" className="text-cream mb-4">
+        <a href="#" className="text-cream">
           <FontAwesomeIcon icon={faCode} style={{ color: "#fff" }} />
         </a>
         <nav className="flex flex-wrap items-center justify-flex-end gap-5 sm:gap-10 md:gap-15">
