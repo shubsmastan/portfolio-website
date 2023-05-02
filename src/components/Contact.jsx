@@ -37,6 +37,7 @@ export default function Contact() {
         <form
           netlify
           name="contact"
+          method="post"
           className="flex flex-col md:ml-auto w-full mt-5"
         >
           <input type="hidden" name="form-name" value="contact" />
