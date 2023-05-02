@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-import { projects, skills } from "../data/project-data";
+import skills from "../data/skills.json";
 
 export default function Skills() {
   return (

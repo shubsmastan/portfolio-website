@@ -1,4 +1,3 @@
-import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faCircleChevronLeft,
@@ -8,34 +7,34 @@ import { faCircle } from "@fortawesome/free-solid-svg-icons";
 
 export default function Projects(props) {
   return (
-    <div className="relative flex flex-wrap mb-4">
+    <div className="relative flex flex-wrap mb-4 h-[475px] max-w-[400px] mx-auto">
       <FontAwesomeIcon
         icon={faCircleChevronLeft}
         onClick={props.handleClickPrev}
-        className="absolute left-[10px] top-[260px] sm:left-[70px] md:left-[90px] lg:left-[120px] cursor-pointer hover:text-dark-rose focus:text-dark-rose active:text-2xl z-20 origin-center"
+        className="absolute left-[10px] top-[260px] cursor-pointer hover:text-dark-rose focus:text-dark-rose active:text-2xl z-20 origin-center"
       />
       <FontAwesomeIcon
         icon={faCircleChevronRight}
         onClick={props.handleClickNext}
-        className="absolute right-[10px] top-[260px] sm:right-[70px] md:right-[90px] lg:right-[120px] cursor-pointer focus:text-dark-rose hover:text-dark-rose active:text-2xl z-20 origin-center"
+        className="absolute right-[10px] top-[260px] cursor-pointer focus:text-dark-rose hover:text-dark-rose active:text-2xl z-20 origin-center"
       />
-      <div className="flex flex-col mx-auto w-100 h-[450px] sm:w-2/3"></div>
+      <div className="flex flex-col mx-auto"></div>
       {props.projects.map((project, index) => {
         return (
           <div
             className={
               index === props.sliderIndex
-                ? "z-10 flex flex-col mx-auto absolute w-100 sm:left-[100px] md:left-[125px] lg:left-[160px] 2xl:left-[200px] sm:w-2/3 transition-opacity duration-1000 ease-in-out"
-                : "z-0 flex flex-col mx-auto absolute w-100 sm:left-[100px] md:left-[125px] lg:left-[160px] 2xl:left-[200px] sm:w-2/3 opacity-0 transition-opacity duration-1000 ease-in-out"
+                ? "z-10 flex flex-col mx-auto absolute transition-opacity duration-1000 ease-in-out"
+                : "z-0 flex flex-col mx-auto absolute opacity-0 transition-opacity duration-1000 ease-in-out"
             }
             key={project.title}
           >
             <img
               alt="gallery"
-              className="w-full h-[250px] object-cover object-center rounded-t"
+              className="h-[250px] object-cover object-center rounded-t"
               src={project.image}
             />
-            <div className="px-8 py-5 h-[250px] sm:h-[200px] w-full bg-cream rounded-b">
+            <div className="px-8 py-5 h-[275px] sm:h-[225px] w-full bg-cream rounded-b">
               <h2 className="text-base font-bold mb-1">{project.subtitle}</h2>
               <h1 className="text-lg text-dark-rose font-bold font-large mb-3">
                 <a href={project.link} target="_blank">

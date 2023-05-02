@@ -1,6 +1,6 @@
-import React, { useState, useRef, useEffect } from "react";
+import { useState, useRef, useEffect } from "react";
 import Projects from "./Projects";
-import { projects } from "../data/project-data";
+import projects from "../data/projects.json";
 
 export default function Portfolio() {
   const timerRef = useRef(null);
