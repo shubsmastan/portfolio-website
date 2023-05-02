@@ -3,8 +3,8 @@ import { faCode } from "@fortawesome/free-solid-svg-icons";
 
 export default function Header() {
   return (
-    <header className="absolute w-full bg-dark-rose font-josefin-sans top-0 z-20 text-cream text-base sm:text-lg">
-      <div className="min-h-10v container mx-auto p-5 flex items-center justify-around flex-wrap flex-col sm:flex-row">
+    <header className="fixed w-full bg-dark-rose font-josefin-sans top-0 z-10 text-cream text-base sm:text-lg">
+      <div className="min-h-10v container mx-auto p-5 flex items-center justify-around flex-wrap flex-col gap-3 sm:flex-row">
         <a href="#" className="text-cream">
           <FontAwesomeIcon icon={faCode} style={{ color: "#fff" }} />
         </a>

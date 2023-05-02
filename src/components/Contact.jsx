@@ -5,13 +5,13 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="min-h-screen py-20 bg-dark-rose text-lg text-cream font-josefin-sans lg:text-xl"
+      className="min-h-screen py-10 bg-dark-rose text-cream text-lg font-josefin-sans lg:text-xl"
     >
-      <div className="text-center mx-auto px-5 py-10 md:w-2/3 lg:px-30">
+      <div className="text-center mx-auto px-5 py-20 md:w-2/3 lg:px-30">
         <h1 className="text-4xl sm:text-5xl font-medium mb-4">Contact Me</h1>
         <p className="leading-relaxed mb-3">
-          Please get in touch if you have any questions, know of any
-          opportunities, or want to collaborate on a project.
+          Please get in touch if you know of any opportunities for work, or want
+          to collaborate on a project.
         </p>
         <div className="flex gap-10 justify-center">
           <a href="https://www.github.com/shubsmastan">
@@ -29,11 +29,6 @@ export default function Contact() {
             />
           </a>
         </div>
-        {/* <img
-          src="/images/self-02.jpg"
-          className="h-[400px] w-auto pt-4 m-auto"
-          alt="hero"
-        /> */}
         <form
           netlify
           name="contact"

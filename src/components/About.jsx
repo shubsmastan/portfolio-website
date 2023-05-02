@@ -2,27 +2,25 @@ export default function About() {
   return (
     <section
       id="about"
-      className="min-h-screen flex items-center py-0 md:py-20 bg-cream font-josefin-sans text-gray-800 text-lg sm:text-xl"
+      className="min-h-screen py-10 flex items-center bg-cream text-gray-800 text-lg font-josefin-sans sm:text-xl"
     >
       <div className="container flex flex-col items-center mx-auto px-5 py-20 md:gap-10 lg:gap-20 md:flex-row md:px-10 xl:px-40">
         <div className="hidden md:block m-auto sm:w-1/2 lg:w-1/3">
           <img
             className="object-cover object-center rounded"
             src="/images/self-01.jpg"
-            alt="hero"
+            alt="An image of Shoaib eating cake in the park"
           />
         </div>
         <div className="flex flex-col items-center text-center mb-10 md:w-1/2 md:items-start md:text-left md:mb-0 lg:flex-grow lg:w-2/3">
-          <h1 className="text-4xl sm:text-5xl pt-10 md:pt-0">
-            Hi, I'm Shoaib.
-          </h1>
+          <h1 className="text-4xl sm:text-5xl">Hi, I'm Shoaib.</h1>
           <p className="mb-4 leading-relaxed md:mb-8">
             I'm an aspiring frontend web developer.
           </p>
           <img
             className="max-w-[300px] mb-4 object-cover object-center rounded md:hidden"
             src="/images/self-01.jpg"
-            alt="hero"
+            alt="An image of Shoaib eating cake in the park"
           />
           <p className="mb-8 leading-relaxed">
             I am a London-based primary computer science teacher and have been
