@@ -1,4 +1,3 @@
-import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
@@ -8,8 +7,8 @@ export default function Contact() {
       id="contact"
       className="min-h-screen py-20 bg-dark-rose text-lg text-cream font-josefin-sans lg:text-xl"
     >
-      <div className="text-center mx-auto px-5 py-10 md:w-2/3 lg:px-40">
-        <h1 className="text-4xl sm:text-5xl font-medium mb-8">Contact Me</h1>
+      <div className="text-center mx-auto px-5 py-10 md:w-2/3 lg:px-30">
+        <h1 className="text-4xl sm:text-5xl font-medium mb-4">Contact Me</h1>
         <p className="leading-relaxed mb-3">
           Please get in touch if you have any questions, know of any
           opportunities, or want to collaborate on a project.
@@ -30,19 +29,17 @@ export default function Contact() {
             />
           </a>
         </div>
-        <img
+        {/* <img
           src="/images/self-02.jpg"
           className="h-[400px] w-auto pt-4 m-auto"
           alt="hero"
-        />
-        {/* <form
+        /> */}
+        <form
           netlify
           name="contact"
-          className="flex flex-col md:ml-auto w-full mt-7"
-          onSubmit={(e) => {
-            e.preventDefault();
-          }}
+          className="flex flex-col md:ml-auto w-full mt-5"
         >
+          <input type="hidden" name="form-name" value="contact" />
           <div className="mb-4">
             <label htmlFor="name" className="leading-7 text-sm">
               Name
@@ -52,7 +49,7 @@ export default function Contact() {
               type="text"
               id="name"
               name="name"
-              className="w-full md:w-6/12 bg-gray-800 rounded focus:border-indigo-500 focus:ring-2 focus:ring-cream text-base outline-none text-cream py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              className="w-full md:w-8/12 bg-gray-800 rounded focus:ring-2 focus:ring-cream text-base outline-none text-cream py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
             />
           </div>
           <div className="relative mb-4">
@@ -64,7 +61,7 @@ export default function Contact() {
               type="email"
               id="email"
               name="email"
-              className="w-full md:w-6/12 bg-gray-800 rounded focus:border-indigo-500 focus:ring-2 focus:ring-cream text-base outline-none text-cream py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              className="w-full md:w-8/12 bg-gray-800 rounded focus:ring-2 focus:ring-cream text-base outline-none text-cream py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
             />
           </div>
           <div className="relative mb-4">
@@ -75,7 +72,7 @@ export default function Contact() {
             <textarea
               id="message"
               name="message"
-              className="w-full md:w-6/12 bg-gray-800 rounded focus:border-indigo-500 focus:ring-2 focus:ring-cream text-base outline-none text-cream py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              className="w-full md:w-8/12 h-[150px] bg-gray-800 rounded focus:ring-2 focus:ring-cream text-base outline-none text-cream py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
             />
           </div>
           <button
@@ -84,7 +81,7 @@ export default function Contact() {
           >
             Submit
           </button>
-        </form> */}
+        </form>
       </div>
     </section>
   );
