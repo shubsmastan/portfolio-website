@@ -1,45 +1,53 @@
 [
   {
-    "title": "Grocery Shop",
-    "subtitle": "React.js, Vite, Bootstrap",
-    "description": "A mock shopping cart, created using a Webpack and React. A work in progress, this is one of The Odin Project's React assignments that I am currently working on.",
+    "title": "Grocery Store App",
+    "subtitle": "React, Redux, Bootstrap",
+    "description": "A mock shopping cart, created using React and Redux to manage state. This is one of The Odin Project's React assignments that I found a really rewarding challenge.",
     "image": "/images/portfolio-01.jpg",
     "link": "https://github.com/shubsmastan/grocery-store-app"
   },
   {
+    "title": "Pokemon Generator",
+    "subtitle": "React, Redux, Vite",
+    "description": "An app that gets 10 random pokemon from an API. Uses Redux to manage state and filter by favourites, alphabetically or search input. Created as part of The Jump's frontend bootcamp.",
+    "image": "/images/portfolio-11.jpg",
+    "link": "https://github.com/shubsmastan/grocery-store-app"
+  },
+  {
     "title": "Portfolio Website",
-    "subtitle": "React.js, Vite, Tailwind CSS",
-    "description": "This very website (which I really enjoyed making!) was built using a Vite+React bootstrap project and I learnt how to use some new styling elements from using CSS framework.",
+    "subtitle": "React, Vite, Tailwind",
+    "description": "This very website (which I really enjoyed making!) was built using a Vite+React bootstrap project and I learnt how to use some new styling elements from using a CSS framework.",
     "image": "/images/portfolio-03.jpg",
     "link": "https://github.com/shubsmastan/portfolio-website"
   },
   {
-    "title": "Todo List",
-    "subtitle": "React.js, NPM, Webpack",
+    "title": "Todo List React",
+    "subtitle": "React, NPM, Webpack",
     "description": "My very first React app, bootstrapped with Webpack instead of using CRA. I learnt how to use JSX, props, state and hooks, and in the process fell in love with React.js!",
     "image": "/images/portfolio-04.jpg",
     "link": "https://github.com/shubsmastan/todo-list-react"
   },
   {
-    "title": "Weather App",
+    "title": "WeatherGetr",
     "subtitle": "JavaScript, NPM, Webpack",
     "description": "An app that fetches the weather locally and allows a search for weather in a specific location, fetching data from on API. Created as part of The Jump's frontend bootcamp.",
     "image": "/images/portfolio-02.jpg",
     "link": "https://github.com/shubsmastan/weathrgetr"
   },
-  {
-    "title": "My Library",
-    "subtitle": "Vanilla JavaScript, CSS, HTML",
-    "description": "Keep track of the books you are reading with this library app. I learnt how to apply the principles of OOP and how to do more advanced DOM manipulation.",
-    "image": "/images/portfolio-05.jpg",
-    "link": "https://github.com/shubsmastan/my-library"
-  },
+
   {
     "title": "Restaurant Landing Page",
     "subtitle": "JavaScript, Webpack, NPM, Sass",
-    "description": "A restaurant landing page, created as part of The Odin Project's JS pathwayto learn how to compile modules, use webpack and create a dynamic webpage.",
+    "description": "A restaurant landing page, created as part of The Odin Project's JavaScript pathway to learn how to compile modules, use webpack and create a dynamic webpage.",
     "image": "/images/portfolio-06.jpg",
     "link": "https://github.com/shubsmastan/nanas-pancake-house"
+  },
+  {
+    "title": "My Library",
+    "subtitle": "JavaScript, CSS, HTML",
+    "description": "Keep track of the books you are reading with this library app. I learnt how to apply the principles of OOP and how to do more advanced DOM manipulation.",
+    "image": "/images/portfolio-05.jpg",
+    "link": "https://github.com/shubsmastan/my-library"
   },
   {
     "title": "Rock Paper Scissors",
