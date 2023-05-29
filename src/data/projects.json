@@ -11,7 +11,7 @@
     "subtitle": "React, Redux, Vite",
     "description": "An app that gets 10 random pokemon from an API. Uses Redux to manage state and filter by favourites, alphabetically or search input. Created as part of The Jump's frontend bootcamp.",
     "image": "/images/portfolio-11.jpg",
-    "link": "https://github.com/shubsmastan/grocery-store-app"
+    "link": "https://github.com/shubsmastan/pokemon-redux"
   },
   {
     "title": "Portfolio Website",
