@@ -9,8 +9,7 @@ export default function Portfolio() {
   return (
     <section
       id="portfolio"
-      className="min-h-screen py-10 flex items-center bg-mauve text-gray-800 text-lg font-josefin-sans lg:text-xl"
-    >
+      className="min-h-screen py-10 flex items-center bg-mauve text-gray-800 text-lg font-josefin-sans lg:text-xl">
       <div className="container px-5 py-20 mx-auto text-center xl:px-40">
         <h1 className="text-4xl sm:text-5xl font-medium mb-4">My Portfolio</h1>
         <Swiper
@@ -38,8 +37,7 @@ export default function Portfolio() {
           }}
           navigation={true}
           modules={[Keyboard, Pagination, Navigation, Autoplay]}
-          className="mySwiper max-w-[350px] h-[580px] sm:max-w-full md:h-[560px]"
-        >
+          className="mySwiper max-w-[350px] h-[580px] sm:max-w-full md:h-[560px]">
           {projects.map((project) => {
             return (
               <SwiperSlide key={project.title}>

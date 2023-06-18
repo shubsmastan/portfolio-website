@@ -30,8 +30,7 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="min-h-screen py-10 bg-dark-rose text-cream text-lg font-josefin-sans lg:text-xl"
-    >
+      className="min-h-screen py-10 flex items-center bg-dark-rose text-cream text-lg font-josefin-sans lg:text-xl">
       <div className="text-center mx-auto px-5 py-20 md:w-2/3 lg:px-30">
         <h1 className="text-4xl sm:text-5xl font-medium mb-4">Contact Me</h1>
         <p className="leading-relaxed mb-5">
@@ -59,8 +58,7 @@ export default function Contact() {
           id="form"
           name="contact"
           className="flex flex-col md:ml-auto w-full mt-5"
-          onSubmit={onSubmit}
-        >
+          onSubmit={onSubmit}>
           <input type="hidden" name="form-name" value="contact" />
           <div className="mb-4">
             <label htmlFor="name" className="leading-7 text-sm">

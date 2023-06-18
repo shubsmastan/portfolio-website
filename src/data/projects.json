@@ -1,80 +1,86 @@
 [
   {
-    "title": "Grocery Store App",
-    "subtitle": "React, Redux, Bootstrap",
-    "description": "A mock shopping cart, created using React and Redux to manage state. This is one of The Odin Project's React assignments that I found a really rewarding challenge.",
-    "image": "/images/portfolio-01.jpg",
+    "title": "Lesson Planning App",
+    "subtitle": "MERN, TypeScript, Next, Jest",
+    "description": "Final project as part of The Jump's fullstack bootcamp (work in progress). An app to allow teachers to manage their lesson plans and view their scheduled lessons.",
+    "image": "/images/portfolio-12.jpg",
+    "link": "https://github.com/shubsmastan/flourish-ed"
+  },
+  {
+    "title": "Express Chat App",
+    "subtitle": "Node, Express, MongoDB, React, TypeScript, Tailwind",
+    "description": "Simple chatroom app, first project created with a backend. Uses websockets to allow instant passing of data between client and server.",
+    "image": "/images/portfolio-11.jpg",
+    "link": "https://github.com/shubsmastan/express-chat"
+  },
+  {
+    "title": "E-Commerce Store Clone",
+    "subtitle": "React, TypeScript, React Router, Redux Toolkit, Bootstrap",
+    "description": "E-commerce site clone, displays products and has a shopping cart feature. Uses React Router for page browsing and Redux Toolkit to manage state.",
+    "image": "/images/portfolio-10.jpg",
     "link": "https://github.com/shubsmastan/grocery-store-app"
   },
   {
     "title": "Pokemon Generator",
-    "subtitle": "React, Redux, Vite",
-    "description": "An app that gets 10 random pokemon from an API. Uses Redux to manage state and filter by favourites, alphabetically or search input. Created as part of The Jump's frontend bootcamp.",
-    "image": "/images/portfolio-11.jpg",
+    "subtitle": "React, TypeScript, Redux Toolkit, Vite, Sass",
+    "description": "Uses Redux Toolkit to store data from an API and filter the data based on input from the user. Created as part of The Jump's frontend bootcamp.",
+    "image": "/images/portfolio-09.jpg",
     "link": "https://github.com/shubsmastan/pokemon-redux"
-  },
-  {
-    "title": "Portfolio Website",
-    "subtitle": "React, Vite, Tailwind",
-    "description": "This very website (which I really enjoyed making!) was built using a Vite+React bootstrap project and I learnt how to use some new styling elements from using a CSS framework.",
-    "image": "/images/portfolio-03.jpg",
-    "link": "https://github.com/shubsmastan/portfolio-website"
   },
   {
     "title": "Todo List React",
     "subtitle": "React, NPM, Webpack",
-    "description": "My very first React app, bootstrapped with Webpack instead of using CRA. I learnt how to use JSX, props, state and hooks, and in the process fell in love with React.js!",
-    "image": "/images/portfolio-04.jpg",
+    "description": "Very first app created with React, bootstrapped with Webpack instead of using CRA (and then upgraded to Vite). Learnt how to use JSX, props, state and hooks.",
+    "image": "/images/portfolio-08.jpg",
     "link": "https://github.com/shubsmastan/todo-list-react"
   },
   {
     "title": "WeatherGetr",
     "subtitle": "JavaScript, NPM, Webpack",
     "description": "An app that fetches the weather locally and allows a search for weather in a specific location, fetching data from on API. Created as part of The Jump's frontend bootcamp.",
-    "image": "/images/portfolio-02.jpg",
+    "image": "/images/portfolio-07.jpg",
     "link": "https://github.com/shubsmastan/weathrgetr"
   },
-
   {
     "title": "Restaurant Landing Page",
     "subtitle": "JavaScript, Webpack, NPM, Sass",
-    "description": "A restaurant landing page, created as part of The Odin Project's JavaScript pathway to learn how to compile modules, use webpack and create a dynamic webpage.",
+    "description": "A restaurant landing page, created as part of The Odin Project's JavaScript pathway. Learnt how to compile modules, use webpack and create a dynamic webpage.",
     "image": "/images/portfolio-06.jpg",
     "link": "https://github.com/shubsmastan/nanas-pancake-house"
   },
   {
     "title": "My Library",
     "subtitle": "JavaScript, CSS, HTML",
-    "description": "Keep track of the books you are reading with this library app. I learnt how to apply the principles of OOP and how to do more advanced DOM manipulation.",
+    "description": "A book tracking tool created as part of The Odin Project's advanced JavaScript pathway. Learnt how to apply the principles of OOP and do more advanced DOM manipulation.",
     "image": "/images/portfolio-05.jpg",
     "link": "https://github.com/shubsmastan/my-library"
   },
   {
-    "title": "Rock Paper Scissors",
-    "subtitle": "JavaScript, CSS, HTML",
-    "description": "One of my first JavaScript projects, created as part of The Odin Project's course. I am unwaveringly proud of it, despite it taking forever to make at the time!",
-    "image": "/images/portfolio-07.jpg",
-    "link": "https://github.com/shubsmastan/rock-paper-scissors"
-  },
-  {
     "title": "Escape the Castle",
     "subtitle": "JavaScript, CSS, HTML",
-    "description": "This was a project I created to teach my pupils the basics of OOP a few years ago. It started as a Python project idea from the Raspberry Pi foundation and has since evolved.",
-    "image": "/images/portfolio-08.jpg",
+    "description": "A project created to teach primary pupils the basics of OOP. Started as a Python project from the Raspberry Pi foundation and turned into a web application.",
+    "image": "/images/portfolio-04.jpg",
     "link": "https://github.com/shubsmastan/escape-the-castle"
+  },
+  {
+    "title": "Rock Paper Scissors",
+    "subtitle": "JavaScript, CSS, HTML",
+    "description": "First JavaScript project, created as part of The Odin Project's frontend pathway. Learnt how to do DOM manipulation conditionally and listen for events.",
+    "image": "/images/portfolio-03.jpg",
+    "link": "https://github.com/shubsmastan/rock-paper-scissors"
   },
   {
     "title": "Food4thought",
     "subtitle": "CSS, HTML",
-    "description": "An homage website created as part of The Jump's frontend bootcamp. This project taught me some really advanced styling concepts and was extremely enjoyable.",
-    "image": "/images/portfolio-09.jpg",
+    "description": "An homage website created as part of The Jump's frontend bootcamp. Learnt more advanced styling concepts, including CSS Grid and Flexbox.",
+    "image": "/images/portfolio-02.jpg",
     "link": "https://github.com/shubsmastan/food4thought"
   },
   {
     "title": "Recipe Website",
     "subtitle": "CSS, HTML",
-    "description": "My first, extremely basic website since I began learning web development in 2022. I have added to it to learn responsiveness, multi-layered menus and form validation.",
-    "image": "/images/portfolio-10.jpg",
+    "description": "Very first website since beginning web development journey  in 2022. Added to it to since to add responsiveness, multi-layered menus and form validation.",
+    "image": "/images/portfolio-01.jpg",
     "link": "https://github.com/shubsmastan/ice-coffee-recipes"
   }
 ]
